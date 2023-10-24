@@ -30,19 +30,8 @@ section#carrocel  a {
   transition: 0.3s ease-in-out;
 }
 
-#nomeAbreviado {
-  display: none;
-}
 
-@media (max-width: 880px) {
-  #nomeAssociacao {
-    display: none; 
-  }
 
-  #nomeAbreviado {
-    display: block;
-  }
-}
 
 
 section#carrocel p {

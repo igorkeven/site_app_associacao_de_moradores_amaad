@@ -1,8 +1,17 @@
+
+body {
+  margin: 0;
+  display: block;
+  place-items: center;
+  background: #161b22;
+  font-family: "Euclid Circular A", "Poppins";
+}
+
+
 .cards {
     margin: 10vh;
     margin-bottom: 20vh;
     padding: 10vh;
-    height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;

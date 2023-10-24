@@ -120,8 +120,19 @@
 
   }
 
+  #nomeAbreviado {
+    display: none;
+  }
   
-
+  @media (max-width: 880px) {
+    #nomeAssociacao {
+      display: none; 
+    }
+  
+    #nomeAbreviado {
+      display: block;
+    }
+  }
   
   @media (width <= 580px) {
     .menu-right img:nth-child(n + 3) {
@@ -165,6 +176,7 @@
     position: absolute;
     
   }
+
 
 
 
